@@ -59,4 +59,11 @@ jspm_packages/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Frontend specific exclusions
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/package-lock.json
+frontend/dist/ 
